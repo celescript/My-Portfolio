@@ -1,0 +1,16 @@
+.home__container{
+  
+  width: 100vw;
+  height: 100vh;
+  
+  background: url('../../assets/images/Home-Background.svg') no-repeat;
+  background-size: cover;
+  background-position: 30%;
+}
+
+@media (min-width: 700px) {
+  div .home__container{
+    background-position: 0 80%;
+    
+  }
+}

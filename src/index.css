@@ -1,0 +1,44 @@
+
+:root{
+  /* Palette */
+  --first-color: #FFCB6C;
+  --seconedary-color: #FC642E;
+  --navigation-color: #00918C;
+  --dark-color: #35302C;
+  --light-color: #F0EFF4;
+
+  background-color: var(--light-color);
+}
+
+*, *::after, *::before{
+  font-family: 'Argentum Sans';
+}
+/* Fonts */
+
+.link, a{
+  text-decoration: none;
+}
+
+ul, li{
+  list-style: none;
+}
+
+@font-face {
+  font-family: 'Argentum Sans';
+  src: url('./assets/fonts/argentum-sans.medium.ttf') format(tff);
+  font-weight: normal;
+  
+}
+
+
+@font-face {
+  font-family: 'Argentum Sans';
+  src: url('./assets/fonts/argentum-sans.bold.ttf') format(tff);
+  font-weight: bold;
+}
+
+@font-face{
+  font-family: 'Argentum Sans';
+  src: url('./assets/fonts/argentum-sans.light.ttf') format(tff);
+  font-weight: lighter;
+}
