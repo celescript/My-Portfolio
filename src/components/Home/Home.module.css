@@ -5,12 +5,89 @@
   
   background: url('../../assets/images/Home-Background.svg') no-repeat;
   background-size: cover;
-  background-position: 30%;
+  background-position: center center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
 }
 
-@media (min-width: 700px) {
-  div .home__container{
-    background-position: 0 80%;
+
+.hometitle__container{
+  max-width: 70vw;
+
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.hometitle__container::before{
+  content: '';
+
+  width: 250px;
+  height: 250px;
+
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  
+  position: absolute;
+
+  
+
+}
+
+
+
+
+.home__title{
+  font-weight: bold;
+  font-size: 2.8rem;
+
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #35302c93;
+
+  text-shadow: 2px -3px var(--dark-color);
+  text-align: center;
+
+  z-index: 1;
+
+  margin-bottom: 0;
+}
+
+
+.home__subtitle{
+  z-index: 2;
+  font-weight: lighter;
+  font-size: 1rem;
+  color: var(--light-color);
+
+  
+}
+
+
+
+
+@media (min-width: 800px) {
+
+
+  .hometitle__container::before{
+    width: 350px;
+    height: 350px;
+  }
+
+  h1.home__title{
+    font-size: 72px;
     
+  }
+
+  .home__subtitle{
+    font-size: 1.5rem;
   }
 }
