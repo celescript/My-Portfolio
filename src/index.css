@@ -25,20 +25,23 @@ ul, li{
 
 @font-face {
   font-family: 'Argentum Sans';
-  src: url('./assets/fonts/argentum-sans.medium.ttf') format(tff);
+  src: url('./assets/fonts/argentum-sans.medium.ttf') format('truetype');
   font-weight: normal;
+  font-display: swap;
   
 }
 
 
 @font-face {
   font-family: 'Argentum Sans';
-  src: url('./assets/fonts/argentum-sans.bold.ttf') format(tff);
+  src: url('./assets/fonts/argentum-sans.bold.ttf') format('truetype');
   font-weight: bold;
+  font-display: swap;
 }
 
 @font-face{
   font-family: 'Argentum Sans';
-  src: url('./assets/fonts/argentum-sans.light.ttf') format(tff);
+  src: url('./assets/fonts/argentum-sans.light.ttf') format('truetype');
   font-weight: lighter;
+  font-display: swap;
 }
