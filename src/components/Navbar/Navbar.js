@@ -36,7 +36,9 @@ const Navbar = () => {
               return(
                 <li key={item.id} className={styles.nav__button}>
                   <a href={item.route} className='link'>
+                    
                     <img src={require(`../../assets/images/${item.name}.svg`)} alt={item.alt} className={styles.nav__icon}></img> 
+                    
                     <p className={styles.nav__text}>{item.name}</p>
                   </a>
                 </li>
