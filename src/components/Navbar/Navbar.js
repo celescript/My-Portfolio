@@ -28,9 +28,11 @@ const Navbar = () => {
 
 
   return (
-    <div className={styles.navbar__container}>
+    
+    
+      
       <nav className={styles.nav__bar}>
-        <ul className={styles.nav__container}>
+        <ul className={styles.nav__container} id='teodio'>
           {
             navData.map((item)=> {
               return(
@@ -48,7 +50,8 @@ const Navbar = () => {
 
         </ul>
       </nav>
-    </div>
+  
+    
   )
 }
 

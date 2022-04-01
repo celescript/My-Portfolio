@@ -1,14 +1,4 @@
-.navbar__container{
-  
 
-  background: transparent;
-
-  position: fixed;
-  top: 0;
-
-  z-index: 5;
-  
-}
 
 .nav__button, .nav__container{
   background-color: var(--navigation-color);
@@ -16,51 +6,49 @@
   width: 100%;
 }
 
-.nav__button, .nav__bar, .nav__container{
-  display: flex;
-  align-items: center;
 
-}
+
 
 
 .nav__bar{
-  width: 90vw;
-  height: 90vh;
+  width: 100vw;
+  height: 8vh;
 
   position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  bottom: 0;
 
-  border: 1.5px solid var(--dark-color);
-
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: flex-end;
-
-  
-  
+  z-index: 100;
 
 }
 
 .nav__container{
+  
+  display: flex;
+  flex-direction: row;
+
+  width: 100vw;
   height: 8vh;
 
   padding: 0%;
   margin: 0;
 
-  align-content: flex-start;
-  justify-content: space-around;
+  
+
+  
+
+  
 
 
 }
 
+
+
 .nav__button{
-  height: 100%;
+  height: 10vh;
   
   border: 1.2px solid var(--dark-color);
 
-  justify-content: center;  
+
 }
 
 .nav__button p, .nav__button {
@@ -84,10 +72,6 @@
 
 
 
-
-
-
-
 .nav__icon{
   width: 2rem;
   height: 2rem;
@@ -98,9 +82,11 @@
 }
 
 @media (min-width: 800px) {
+
   .nav__bar{
-    justify-content: flex-start;
+    top: 0;
   }
+  
 
   .nav__icon{
     display: none;
