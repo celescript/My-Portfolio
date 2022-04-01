@@ -71,11 +71,11 @@ const Work = () => {
                   
 
                   <div className={styles.project__buttons}>
-                    <a className={`${styles.btn} 'link'`} target="_blank" rel="noopener noreferrer"href={project.demo}>  
+                    <a className={styles.btn} href={project.demo}  target="_blank" rel="noreferrer noopener">  
                       LIVE DEMO
                     </a>
-                    <a className={`${styles.btn} link`} href={project.github}
-                    target="_blank" rel="noopener noreferrer">
+                    <a className={styles.btn} href={project.github}  target="_blank" rel="noreferrer noopener"
+                    >
                         GH REPO
                     </a>
                   </div>
