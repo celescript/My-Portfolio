@@ -274,3 +274,23 @@
     max-width: 35vw;
   }
 }
+
+@media  (max-height: 870px){
+  .project__bodyside{
+    gap: .3rem;
+  }
+
+  p.project__text{
+    font-size: .8rem;
+  }
+
+  .toolbox__icon{
+    width: 6vw;
+  }
+
+  .btn{
+    font-size: .65rem;
+    margin: .5;
+  }
+  
+}
