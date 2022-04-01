@@ -11,7 +11,15 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: pre-wrap;
+
+  
 }
+
+
 
 .projects__container{
   
@@ -143,7 +151,7 @@
   opacity: 90%
   ;
 
-  text-align: justify;
+  text-align: center;
 }
 
 .btn{
