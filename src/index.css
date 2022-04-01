@@ -8,6 +8,9 @@
   --light-color: #F0EFF4;
 
   background-color: var(--light-color);
+
+  overflow-x: hidden;
+
 }
 
 *, *::after, *::before{
@@ -45,4 +48,23 @@ ul, li{
   src: url('./assets/fonts/argentum-sans.light.ttf') format('truetype');
   font-weight: lighter;
   font-display: swap;
+}
+
+::-webkit-scrollbar{
+  width: 1em;
+  
+}
+
+::-webkit-scrollbar{
+  background-color:var(--dark-color);
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #00918cc9;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color: #00918ce7;
+  border-radius: 50px;
 }
