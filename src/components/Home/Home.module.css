@@ -57,14 +57,14 @@
   text-shadow: 2px -3px var(--dark-color);
   text-align: center;
 
-  z-index: 1;
+  
 
   margin-bottom: 0;
 }
 
 
 .home__subtitle{
-  z-index: 2;
+  
   font-weight: lighter;
   font-size: 1rem;
   color: var(--light-color);
