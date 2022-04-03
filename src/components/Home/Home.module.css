@@ -25,6 +25,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  
 
 }
 
@@ -57,7 +58,7 @@
   text-shadow: 2px -3px var(--dark-color);
   text-align: center;
 
-  
+  z-index: 5;
 
   margin-bottom: 0;
 }
@@ -69,7 +70,7 @@
   font-size: 1rem;
   color: var(--light-color);
 
-  
+  z-index: 5;
 }
 
 

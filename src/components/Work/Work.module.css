@@ -12,11 +12,18 @@
   justify-content: flex-start;
   align-items: center;
 
-  overflow-x: scroll;
   overflow-y: hidden;
   white-space: pre-wrap;
 
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    
+
   
+}
+
+.work__container::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
 }
 
 
@@ -203,6 +210,18 @@ a.btn{
 }
 
 @media  (min-width: 800px){
+  .work__container{
+    overflow-x: scroll;
+
+    -ms-overflow-style:initial; /* for Internet Explorer, Edge */
+    scrollbar-width:initial; /* for Firefox */
+    
+  }
+
+  .work__container::-webkit-scrollbar {
+    display: block; /* for Chrome, Safari, and Opera */
+  }
+
   .projects__container{
     padding: 20vh 8vw 10vh 8vw;
   }

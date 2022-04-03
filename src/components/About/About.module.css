@@ -1,0 +1,25 @@
+.about__container{
+  width: 100vw;
+  height: 100vh;
+
+  margin-top: 5vh;
+
+  background: url('../../assets/images/About-Background.svg')  no-repeat;
+  background-size: 120% 100%;
+  background-position: center center;
+
+  position: relative;
+}
+
+.about__title{
+  position: absolute;
+  top: 30%;
+  left: 20vw;
+
+  font-size: 1rem;
+  font-style: italic;
+
+  color: var(--dark-color);
+  background-color: var(--light-color);
+  padding: 5px;
+}

@@ -32,7 +32,7 @@ const Navbar = () => {
     
       
       <nav className={styles.nav__bar}>
-        <ul className={styles.nav__container} id='teodio'>
+        <ul className={styles.nav__container}>
           {
             navData.map((item)=> {
               return(
