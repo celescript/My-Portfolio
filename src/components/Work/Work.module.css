@@ -110,14 +110,14 @@ div.projects__container{
   text-decoration-color: var(--first-color);
   text-decoration-thickness: 3px;
 
-
+  
 
   color: var(--light-color);
 }
 
 .project__body{
   width: 90%;
-  height: 90%;
+  height: 100%;
 
   display: flex;
     flex-direction: column;
@@ -160,12 +160,12 @@ div.projects__container{
 }
 
 .project__text{
-  font-size: .8rem;
+  font-size: .9rem;
   font-weight: lighter;
   color: var(--light-color);
   opacity: 90%
   ;
-  margin-bottom: -.4rem;
+  
 
   text-align: center;
 }
@@ -256,7 +256,7 @@ a.btn{
 
   h1.project__title{
     font-size: 5vw;
-  
+    margin-bottom: 0;
     text-decoration-thickness: 8px;
   
   }
@@ -296,6 +296,7 @@ a.btn{
 
   .project__text{
     max-width: 70%;
+    font-size: 1.2rem;
     
   }
   
