@@ -67,7 +67,7 @@
 
 .nav__button:hover, .nav__button:focus{
   box-shadow: 
-    inset 40em 0 0 0 var(--dark-color);   
+    inset 40em 0 0 0 var(--secondary-color);   
 }
 
 
@@ -102,7 +102,7 @@
 
   .nav__button:hover p, .nav__button:focus p{
     text-decoration: underline;
-    color: var(--light-color);
+     
     
     
   }
