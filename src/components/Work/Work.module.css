@@ -123,8 +123,7 @@ div.projects__container{
   display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 1rem
-    ;
+  gap: 1rem;
 
 }
 
@@ -179,7 +178,7 @@ div.projects__container{
   color: var(--light-color);
   opacity: 90%
   ;
-  
+  margin: 0;
 
   text-align: center;
 }

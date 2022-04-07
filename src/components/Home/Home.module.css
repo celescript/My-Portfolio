@@ -53,9 +53,9 @@
 
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: var(--light-color);
+  -webkit-text-stroke-color: var(--dark-color);
 
-  text-shadow: 2px -3px var(--light-color);
+  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
   text-align: center;
 
   z-index: 5;
