@@ -1,11 +1,11 @@
 
 :root{
   /* Palette */
-  --first-color: #FFCB6C;
-  --secondary-color: #FC642E;
-  --navigation-color: #00918C;
-  --dark-color: #35302C;
-  --light-color: #F0EFF4;
+  --first-color: #1B458B;
+  --secondary-color: #F58D6B;
+  --navigation-color: #F4C5C8;
+  --dark-color: #201f1d;
+  --light-color: #DCDCDC;
 
   background-color: var(--light-color);
 
@@ -60,11 +60,11 @@ ul, li{
 }
 
 ::-webkit-scrollbar-thumb{
-  background-color: #00918cc9;
+  background-color: #F4C5C8c9;
   border-radius: 50px;
 }
 
 ::-webkit-scrollbar-thumb:hover{
-  background-color: #00918ce7;
+  background-color: #F4C5C8e7;
   border-radius: 50px;
 }

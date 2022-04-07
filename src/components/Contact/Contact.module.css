@@ -17,7 +17,8 @@
 .contact__title{
   background-color: var(--secondary-color);
   padding: 18px;
-  width: 70vw;
+  width: 80vw;
+  box-sizing: border-box;
   text-align: center;
   color: var(--light-color);
   font-weight: normal;
@@ -32,6 +33,7 @@
   
   width: 80vw;
   height: 60vh;
+
   justify-content: space-around;
   align-items: stretch;
 
@@ -84,10 +86,14 @@
 
 
 .text{
-  font-size: .8rem;
+  font-size: .65rem;
   font-weight: bold;
   text-decoration: none;
   color: var(--dark-color);
+
+  margin: 2px;
+
+  background-color: var(--navigation-color);
 }
 
 @media (min-width: 950px) {
@@ -107,15 +113,20 @@
 
   .contact__body{
     height: 30vh;
+    
     max-width: 1000px;
 
     flex-direction: row;
+
+    justify-content: space-evenly;
+    gap: 1rem;
   }
 
   .contact__btn{
     flex-direction: column;
     justify-content: center;
-    width: 18vw;
+    width: 20vw;
+    
   }
 
   .image{

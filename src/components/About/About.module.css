@@ -21,7 +21,7 @@
   justify-content: flex-start;
   align-items: center;
 
-  height: 60vh;
+  height: 70vh;
 }
 
 .about__title{
@@ -57,6 +57,8 @@
 
 .about__body{
   margin-top: 1.5rem;
+
+  color: var(--light-color);
 }
 
 

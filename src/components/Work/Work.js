@@ -49,7 +49,17 @@ const Work = () => {
                 </h1>
 
                 <div className={styles.project__body}>
+
+                <img src={require(`../../assets/images/Projects/${project.img}`)} alt={project.alt} className={styles.project__image}></img>
+                
+
+
                   <div className={styles.project__bodyside}>
+
+                  <p className={styles.project__text}>
+                    {project.text}
+                  </p>
+
                   <div className={styles.project__toolbox}> 
                       <h2 className={styles.toolbox__title}>TOOLS</h2>
                       <div className={styles.toolbox__icons}>
@@ -63,11 +73,6 @@ const Work = () => {
                         }
                       </div>
                   </div>
-
-                  <p className={styles.project__text}>
-                    {project.text}
-                  </p>
-
                   
 
                   <div className={styles.project__buttons}>
@@ -83,8 +88,7 @@ const Work = () => {
                 </div>
                 
 
-                <img src={require(`../../assets/images/Projects/${project.img}`)} alt={project.alt} className={styles.project__image}></img>
-                
+               
                 </div>
                 
               </div>

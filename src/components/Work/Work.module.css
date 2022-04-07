@@ -30,7 +30,7 @@
 
 .projects__container{
   
-  height: 70vh;
+  height: 80vh;
 
   padding: 10vh 8vw 20vh 8vw;
 
@@ -49,10 +49,12 @@ div.projects__container{
 }
 
 .project{
-  height: 70vh;
+  height: 80vh;
   width: 80vw;
 
   border-radius: 50px;
+
+
 
 
   background-color: var(--secondary-color);
@@ -91,7 +93,6 @@ div.projects__container{
 
 .project__data{
   width: 100%;
-  height: 100%;
 
   display: flex;
   flex-direction: column;
@@ -117,10 +118,11 @@ div.projects__container{
 
 .project__body{
   width: 90%;
-  height: 100%;
+  height: 60vh;
 
   display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 1rem
     ;
 
@@ -131,7 +133,7 @@ div.projects__container{
 
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   align-items: center;
 
   gap: 1rem;
@@ -140,22 +142,34 @@ div.projects__container{
 }
 
 .project__toolbox{
-  width: 80%;
+  width: 90%;
   border: 2px solid var(--dark-color);
-
+  height: 25%;
   text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0rem;
+
+  padding: .3rem;
+  
 }
 
 .toolbox__title{
-  font-size: 1rem;
+  font-size: .8rem;
   color: var(--light-color);
   font-weight: lighter;
+
+  margin: .2rem;
 }
 
 .toolbox__icon{
-  width: 7vw;
-  margin: 0.2rem;
-  margin-bottom: 1rem;
+  width: 6vw;
+  margin: .2rem;
+  
+  
   
 }
 
@@ -203,8 +217,7 @@ a.btn{
 
 .project__image{
   align-self: center;
-  height: 18vh;
-  width: 50vw;
+  width: 60vw;
   
   
 }
@@ -303,6 +316,6 @@ a.btn{
   .project__image{
     height: 80%;
     max-height: 40vh;
-    max-width: 35vw;
+    max-width: 40vw;
   }
 }
