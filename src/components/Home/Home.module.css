@@ -55,7 +55,7 @@
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: var(--dark-color);
 
-  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+  text-shadow: 2px 0 0 var(--light-color), -2px 0 0 var(--light-color), 0 2px 0 var(--light-color), 0 -2px 0 var(--light-color), 1px 1px var(--light-color), -1px -1px 0 var(--light-color), 1px -1px 0 var(--light-color), -1px 1px 0 var(--light-color);
   text-align: center;
 
   z-index: 5;
