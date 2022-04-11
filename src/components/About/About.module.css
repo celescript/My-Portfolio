@@ -26,6 +26,7 @@
 
   max-width: 700px;
   align-self: center;
+  cursor: default;
 }
 
 .about__title{
@@ -39,6 +40,7 @@
 
   padding: 5px;
   margin: 0;
+  cursor: default;
 }
 
 .about__image{
@@ -109,6 +111,8 @@
 
   .about__title{
     font-size: 2vw;
+
+    
   }
 
   .about__body{

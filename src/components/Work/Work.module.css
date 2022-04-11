@@ -70,6 +70,8 @@ div.projects__container{
   display: flex;
   justify-content: center;
   align-items: center;
+
+  
   
 }
 
@@ -89,6 +91,8 @@ div.projects__container{
       1px -1px 0 var(--light-color),
       -1px 1px 0 var(--light-color),
        1px 1px 0 var(--light-color);
+
+       cursor: default;
 }
 
 .project__data{
@@ -111,6 +115,8 @@ div.projects__container{
   text-decoration: underline;
   text-decoration-color: var(--first-color);
   text-decoration-thickness: 3px;
+
+  cursor: default;
 
   
 
@@ -163,6 +169,8 @@ div.projects__container{
   font-weight: lighter;
 
   margin: .2rem;
+
+  cursor: default;
 }
 
 .toolbox__icon{
@@ -180,6 +188,8 @@ div.projects__container{
   opacity: 90%
   ;
   margin: 0;
+
+  cursor: default;
 
   text-align: center;
 }

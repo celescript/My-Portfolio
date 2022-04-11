@@ -54,7 +54,7 @@
   color: var(--light-color);
    /* -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: var(--light-color);  */
-
+  cursor: default;
   
   text-align: center;
 
@@ -71,6 +71,7 @@
   font-size: 1rem;
   color: var(--light-color);
 
+  cursor: default;
   z-index: 5;
 }
 

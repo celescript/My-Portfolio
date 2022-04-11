@@ -111,6 +111,8 @@
     max-width: 1000px;
     padding: 40px;
     font-family: 'Neue';
+
+    cursor: default;
   }
 
   .contact__body{
