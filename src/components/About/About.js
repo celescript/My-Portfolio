@@ -14,7 +14,7 @@ const About = () => {
         
         <div className={styles.about__side}>
           
-          <h1 className={styles.about__title}>INTRODUCTION</h1>
+          <h1 className={styles.about__title}>ABOUT ME</h1>
 
           
 
