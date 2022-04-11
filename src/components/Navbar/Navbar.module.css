@@ -95,7 +95,10 @@
   .nav__text{
     display: block;
 
-    font-style: italic;
+    
+    font-family: 'Neue';
+  
+    text-transform: uppercase;
     color: var(--dark-color);
 
   }
