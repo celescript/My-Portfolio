@@ -22,6 +22,7 @@
   text-align: center;
   color: var(--light-color);
   font-weight: normal;
+  font-family: 'Neue';
   font-style: italic;
 
   margin-top: -2rem;
@@ -106,9 +107,10 @@
   }
 
   .contact__title{
-    font-size: 4rem;
+    font-size: 3rem;
     max-width: 1000px;
     padding: 40px;
+    font-family: 'Neue';
   }
 
   .contact__body{

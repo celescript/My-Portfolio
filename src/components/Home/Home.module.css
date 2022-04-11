@@ -48,14 +48,14 @@
 
 
 .home__title{
-  font-weight: bold;
+  font-family: 'Neue Outline';
   font-size: 2.8rem;
 
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: var(--dark-color);
+  color: var(--light-color);
+   /* -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--light-color);  */
 
-  text-shadow: 2px 0 0 var(--light-color), -2px 0 0 var(--light-color), 0 2px 0 var(--light-color), 0 -2px 0 var(--light-color), 1px 1px var(--light-color), -1px -1px 0 var(--light-color), 1px -1px 0 var(--light-color), -1px 1px 0 var(--light-color);
+  
   text-align: center;
 
   z-index: 5;
@@ -65,7 +65,8 @@
 
 
 .home__subtitle{
-  
+  margin-top: 0;
+
   font-weight: lighter;
   font-size: 1rem;
   color: var(--light-color);

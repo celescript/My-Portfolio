@@ -50,6 +50,22 @@ ul, li{
   font-display: swap;
 }
 
+@font-face{
+  font-family: 'Neue';
+  src: url('./assets/fonts/NeueMetanaNext-SemiBold.otf') format('opentype');
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face{
+  font-family: 'Neue Outline';
+  src: url('./assets/fonts/NeueMetanaNextOutline-Black.otf') format('opentype');
+  font-weight: normal;
+  font-display: swap;
+}
+
+
+
 ::-webkit-scrollbar{
   width: 1em;
   

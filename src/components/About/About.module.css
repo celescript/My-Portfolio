@@ -30,9 +30,9 @@
 
 .about__title{
   
-
+  font-family: 'Neue Outline';
   font-size: 2rem;
-  font-style: italic;
+  
 
   color: var(--dark-color);
   background-color: var(--light-color);
@@ -108,7 +108,7 @@
   }
 
   .about__title{
-    font-size: 3vw;
+    font-size: 2vw;
   }
 
   .about__body{

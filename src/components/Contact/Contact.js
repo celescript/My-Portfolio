@@ -70,16 +70,16 @@ const Contact = () => {
 
       }
 
-        <div className={`${styles.contact__btn} ${styles.even} `}>
-          <a className={styles.link} href={'/CELESTEFERNANDEZ-CV.pdf'} target="_blank" rel="noreferrer"> 
+        
+          <a className={`${styles.contact__btn} ${styles.even} ${styles.link}`} href={'/CELESTEFERNANDEZ-CV.pdf'} target="_blank" rel="noreferrer"> 
 
             <img alt='download icon' className={styles.image} src={image}></img>
+            <p className={styles.text}>Download my CV</p>
 
           </a>
 
-          <p className={styles.text}>Download my CV</p>
 
-        </div>
+        
 
       </div>
 

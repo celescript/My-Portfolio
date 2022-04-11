@@ -105,9 +105,9 @@ div.projects__container{
   text-align: center;
   font-size: 1.5rem;
   text-transform: uppercase;
-  font-style: italic;
+  font-family: 'Neue';
 
-  text-decoration: line-through;
+  text-decoration: underline;
   text-decoration-color: var(--first-color);
   text-decoration-thickness: 3px;
 
