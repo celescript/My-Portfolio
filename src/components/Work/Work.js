@@ -3,9 +3,18 @@ import React from 'react'
 import styles from './Work.module.css'
 
 const Work = () => {
-  const workData = [
+  const workData = [{
+    number: '01',
+      title: 'Cognizant Softvision - Challenge',
+      text: 'Simple trello-like project that helped me to practice React and to learn the css preprocessor SASS.',
+      img: 'Project3.svg',
+      alt: 'project mockup, desktop device screen',
+      icons: ['html5', 'css3', 'javascript', 'react', 'sass'],
+      demo: 'https://celestefernandez-cschallenge.vercel.app/',
+      github: 'https://github.com/celestef00/cognizant-softvision-challenge'
+  },
     {
-      number: '01',
+      number: '02',
       title: 'Odele - E-Commerce',
       text: 'My first React.js project, really enjoyed it and learned about Hooks, Context, React-Router-Dom, API Requests, etc.',
       img: 'Project1.svg',
@@ -16,7 +25,7 @@ const Work = () => {
 
     },
     {
-      number: '02',
+      number: '03',
       title: 'Meow Keyboard',
       text: 'My first Vanilla Javascript project, practiced DOM manipulation and created a keyboard with kitten paws.',
       img: 'Project2.svg',
